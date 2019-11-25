@@ -28,7 +28,7 @@ body {
 }
 
 .robot-brain {
-  position: absolute
+  position: absolute;
   width: 46px;
   bottom: 85px;
   left: 110px;
