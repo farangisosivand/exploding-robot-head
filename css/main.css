@@ -35,9 +35,9 @@ body {
 }
 
 .robot-head-right{
-position: relative;
-left: 110px;
-bottom: 45px;
+  position: relative;
+  left: 110px;
+  bottom: 45px;
 }
 
 .robot-head-left {
