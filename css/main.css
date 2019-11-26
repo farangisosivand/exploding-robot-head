@@ -18,31 +18,41 @@ body {
 }
 
 .robot {
+  flex-wrap: wrap;
+  display: flex:
   width: 320px;
 }
 
 .robot-body {
+  flex-wrap: wrap;
+  display: flex:
   position: relative;
-  top: 184px;
   width: 320px;
 }
 
 .robot-brain {
-  position: absolute;
+  position: relative;
+  bottom: 80px;
+  left: 141px;
   width: 46px;
-  bottom: 85px;
-  left: 110px;
 }
 
 .robot-head-right {
   position: relative;
-  left: 110px;
-  bottom: 45px;
+  left: 109px;
+  bottom: 47px;
+}
+
+.robot-head-right:hover {
 }
 
 .robot-head-left {
   position: relative;
-  width: 125px;
   right: 145px;
-  bottom: 45px;
+  bottom: 47px;
+  width: 125px;
+}
+
+.robot-head-left:hover {
+
 }
