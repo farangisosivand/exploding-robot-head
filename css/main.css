@@ -14,45 +14,53 @@ body {
 }
 
 .banner {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #2b3851;
 }
 
 .robot {
-  flex-wrap: wrap;
-  display: flex:
   width: 320px;
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .robot-body {
-  flex-wrap: wrap;
-  display: flex:
   position: relative;
   width: 320px;
+  top: 170px;
+  left: auto;
 }
 
 .robot-brain {
   position: relative;
-  bottom: 80px;
+  bottom: 135px;
   left: 141px;
   width: 46px;
 }
 
 .robot-head-right {
   position: relative;
-  left: 109px;
-  bottom: 47px;
-}
-
-.robot-head-right:hover {
 }
 
 .robot-head-left {
   position: relative;
-  right: 145px;
-  bottom: 47px;
   width: 125px;
 }
 
 .robot-head-left:hover {
+  top: auto;
+  left: auto;
+  right: 0;
+}
 
+.robot-head-right:hover {
+  top: auto;
+  left: auto;
+  right: auto;
+}
+
+.robot-brain:hover {
+  top: 40px;
 }
