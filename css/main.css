@@ -14,8 +14,6 @@ body {
 }
 
 .banner {
-  display: flex;
-  flex-wrap: wrap;
   background-color: #2b3851;
 }
 
